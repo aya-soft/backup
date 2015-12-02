@@ -34,7 +34,9 @@ group :production do
   gem 'twitter'
   gem 'hipchat'
   gem 'flowdock'
-  gem 'json'
+  gem 'memoizable', '=0.4.2'
+  gem 'thread_safe', '=0.3.5'
+  gem 'json', '=1.8.3'
   gem 'dogapi'
   gem 'aws-ses'
 end
